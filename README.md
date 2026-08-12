@@ -3,7 +3,7 @@
 > **WARNING:** Unauthorized access to `Adem_Birthday_Boy` codebase detected.
 > **USER:** Course 6-3 Student
 
-
+```text
 [SYSTEM LOG]
 ---------------------------------------------------------
 [PASS] 6.0001 / 6.0002 Fundamentals...... OK
