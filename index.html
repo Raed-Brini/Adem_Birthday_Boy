@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MIT Terminal v2026.0 - Birthday Edition</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="canvas-container"></canvas>
+
+  <div class="terminal-container">
+    <div class="terminal-header">
+      <div class="buttons">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <div class="title">mit-student@beaver-server:~ (zsh)</div>
+      <div></div>
+    </div>
+
+    <div class="terminal-body" id="terminal-body">
+      <div class="line">[OK] Initializing Birthday Protocol v2026...</div>
+      <div class="line">[OK] Connection established with MIT Campus Subnet.</div>
+      <div class="line">----------------------------------------------------</div>
+      <div class="line">Type <span class="accent">'help'</span> or <span class="accent">'menu'</span> for options.</div>
+      <div class="line">----------------------------------------------------</div>
+
+      <!-- Input element appended dynamically via JS -->
+      <div class="input-line" id="input-row">
+        <span class="prompt-symbol">adem@mit-node:~$</span>
+        <input type="text" id="user-input" autofocus autocomplete="off" spellcheck="false" enterkeyhint="go">
+      </div>
+    </div>
+  </div>
+
+  <!-- Lightweight Confetti Library CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
