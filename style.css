@@ -5,6 +5,16 @@
       --prompt-color: #ff7b72;
     }
 
+/* 
+  Hey Adem! 👁️
+  If you're auditing my CSS specificity,
+  you officially owe me and everyone around you a drink. 🍻
+  
+  Stop reviewing my stylesheets and go enjoy your 21st! 
+
+  Keep count of how many drinks you owe me. You might owe me another one!
+*/
+
 * {
     box-sizing: border-box;
     margin: 0;
